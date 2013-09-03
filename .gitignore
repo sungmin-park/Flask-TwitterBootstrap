@@ -1,0 +1,9 @@
+# develper setup information
+/*.egg-info/
+
+# vim's swapfiles
+*.swp
+
+# python compiled sources
+*.pyc
+
