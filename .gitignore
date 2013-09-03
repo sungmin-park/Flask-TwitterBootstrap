@@ -1,6 +1,9 @@
 # develper setup information
 /*.egg-info/
 
+# setuptools dist folder
+/dist/
+
 # vim's swapfiles
 *.swp
 
