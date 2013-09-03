@@ -8,3 +8,9 @@ mixin form_errors(form)
             | 
             = error
 
+mixin alerts()
+  .row
+    .col-md-12
+      - with messages = get_flashed_messages(with_categories=true)
+        for category, message in messages if messages
+          .alert(class='alert-' + category)= message

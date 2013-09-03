@@ -1,7 +1,13 @@
-from flask import Blueprint
-
-bootstrap = Blueprint('bootstrap', __name__, template_folder='templates')
+from flask import Blueprint, flash
 
 
-def Bootstrap(app):
-    app.register_blueprint(bootstrap)
+class Bootstrap(Blueprint):
+    def __init__(self, app):
+        super(Bootstrap, self).__init__(
+            'bootstrap', __name__, template_folder='templates'
+        )
+        app.register_blueprint(self)
+
+
+def success(msg):
+    flash(msg, 'success')
