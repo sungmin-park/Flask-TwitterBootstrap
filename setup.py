@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='Flask-TwitterBootstrap',
-    version='0.0.3',
+    version='0.0.4',
     packages=['flask_twitterbootstrap'],
     include_package_data=True,
     zip_safe=False,

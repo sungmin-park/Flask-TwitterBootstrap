@@ -11,3 +11,7 @@ class Bootstrap(Blueprint):
 
 def success(msg):
     flash(msg, 'success')
+
+
+def error(msg):
+    flash(msg, 'error')
