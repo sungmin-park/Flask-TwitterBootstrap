@@ -14,4 +14,4 @@ def success(msg):
 
 
 def error(msg):
-    flash(msg, 'error')
+    flash(msg, 'danger')
