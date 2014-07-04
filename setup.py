@@ -3,6 +3,8 @@ from setuptools import setup
 setup(
     name='Flask-TwitterBootstrap',
     version='0.0.4',
+    description='Flask-TwitterBootstrap',
+    url='https://github.com/vamf12/Flask-TwitterBootstrap',
     packages=['flask_twitterbootstrap'],
     include_package_data=True,
     zip_safe=False,
